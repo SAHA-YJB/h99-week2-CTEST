@@ -5,7 +5,6 @@
 function stringReturn(str) {
   let wordArr = str.split("")
   let len = wordArr.length
-  console.log(wordArr, len)
   if (len % 2 === 0) {
     return wordArr.slice(len / 2 - 1, len / 2 + 1).join("");
   } else {
