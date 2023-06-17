@@ -10,6 +10,7 @@ function printStar(n, m) {
     }
     star += "\n";
   }
-  return star;
+  return star;  
 }
-console.log(star(5, 3))
+console.log(printStar(3, 5))
+

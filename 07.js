@@ -17,6 +17,5 @@ function add(ab, si) {
   }
   return output
 }
-
 console.log(add([4, 7, 12], [true, false, true]));
 console.log(add([1,2,3], [false, false, true]));

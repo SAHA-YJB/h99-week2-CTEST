@@ -11,8 +11,6 @@ function stringReturn(str) {
     return wordArr[Math.floor(len / 2)]
   } 
 }
-
 console.log(stringReturn("abcde"));
 console.log(stringReturn("qwer"));
-
 

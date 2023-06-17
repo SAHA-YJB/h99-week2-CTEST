@@ -2,10 +2,6 @@
 // 홀수인 경우 "Odd"를 반환하는 함수, solution을 완성해주세요.
 
 function returnOddEven(x) {
-  if (x % 2) {
-    console.log("Odd");
-  } else {
-    console.log("Even");
-  }
+  return x % 2 ? "Odd" : "Even"; 
 }
-returnOddEven(3);
+console.log(returnOddEven(3))
