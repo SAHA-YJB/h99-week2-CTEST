@@ -7,7 +7,6 @@
 function solution(s) {
   var answer = "";
   let word = s.split(" ");
-
   let changeWords = word.map((val) => {
     let changeWord = "";
     for (let i = 0; i < val.length; i++) {
