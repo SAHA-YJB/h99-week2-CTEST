@@ -7,6 +7,10 @@
 
 function solution(arr) {
   let answer = [];
+  for (const val of arr) {
+    arr.length === 1 ? answer.push(-1) : answer;
+    val > Math.min(...arr) ? answer.push(val) : answer;
+  }
   return answer;
 }
 console.log(solution([4, 3, 2, 1]));
